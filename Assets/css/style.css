@@ -37,7 +37,7 @@ li {
     margin-left: 30%
 }
 
-
+/* This sets up how the three hyperlinks in the header will look like */
 .links a {
     padding:10px;
     background color: #52ab98;
@@ -46,6 +46,7 @@ li {
     border:gray;
 }
 
+/* This sets up how the images in the projects section will work */
 input {
  border:10px;
  border-color:teal;
@@ -53,6 +54,7 @@ input {
  flex-wrap: wrap;
 }
 
+/* This sets up how the hyperlinks will act when you hover the cursor over it */
 a:hover {
     margin:10px;
     justify-content: space-between;
@@ -60,11 +62,14 @@ a:hover {
     background-color:whitesmoke;
 }
 
+/* This sets up the wording for the background image */
 h2 {
     text-align:right;
     line-height: 100%;
     background-color:skyblue;
 }
+
+/* This sets up the wording of "About" */
 h3 {
     display:flex;
     align-items: center;
@@ -74,10 +79,13 @@ h3 {
     top:50px;
 }
 
+/* This sets up the "About" summary */
+
 h3 ul li {
     text-align:right;
 }
 
+/* This sets up the images in the project section */
 input {
     display:inline-flex;
     justify-content: right;
@@ -94,26 +102,21 @@ input {
 
 h4 {
     font-size:25px;
-    color:tomato;
-    line-height:50px;
-    background-color: slategrey;
+    color:whitesmoke;
+    line-height:70px;
+    background-color:#7395AE;
 }
 
-
+/* This sets up the functionality of the images in the work
+section when the cursor is hovered over it */
 .img:hover {
     border-style:solid;
     border:10px;
     border-color:cadetblue;
 }
 
-h6 {
-    font-size:25px;
-    color:tomato;
-    line-height:50px;
-    background-color:slateblue;
-    
-}
-
+/* This sets up the display of the contacts section
+(background and font) */
 #contact {
     color:whitesmoke;
     background-color:cadetblue;
@@ -122,13 +125,6 @@ h6 {
     font-size:25px;
     bottom:100px;
     word-spacing: 60px;
-}
-
-/*  */
-
-.Contact nav {
-    position:relative;
-    bottom:85px;
 }
 
 /* This sets up the Contact Info font settings, placement, and background */
@@ -148,6 +144,9 @@ h6 {
     border-radius:10px;
     border:gray;
 }
+
+/* This sets up the functionality of the contact hyperlinks
+when you hover over them */
 
 .Info li:hover{
     justify-content: space-between;
