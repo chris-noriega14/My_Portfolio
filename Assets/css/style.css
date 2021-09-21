@@ -1,0 +1,151 @@
+/* This sets up the name of the page, the background color, and the look of the hyperlinks */
+
+h1 {
+    font-size: 40px;
+    color:whitesmoke;
+    background-color:cadetblue;
+    line-height: 70px;
+}
+
+/* This moves the hyperlinks to the right side of the page */
+/* The hyperlinks positioning and font-size were modified here*/
+
+
+nav {
+    text-align:right;
+    position:relative;
+    bottom: 85px;
+    margin: 40px;
+    font-size:25px;
+}
+
+/* No bullet points on the hyperlinks */
+
+ul {
+    list-style: none;
+}
+
+/* Hyperlinks are displayed in a row vs. stacked on top of each other*/
+
+li {
+    display:inline;
+}
+
+/* This sets up the background image size below the header */
+.backgroundimage {
+    width: 100%;
+}
+
+
+.links a {
+    padding:10px;
+    background color: #52ab98;
+    border-radius:10px;
+    border:gray;
+}
+
+input {
+ border:10px;
+ border-color:teal;
+ display:flex;
+ flex-wrap: wrap;
+}
+
+a:hover {
+    margin:10px;
+    justify-content: space-between;
+    color:gray;
+    background-color:whitesmoke;
+}
+
+h2 {
+    text-align:right;
+    line-height: 100%;
+    background-color:skyblue;
+}
+h3 {
+    display:flex;
+    align-items: center;
+    font-size:25px;
+    color:gray;
+    position:relative;
+    top:50px;
+}
+
+h3 ul li {
+    text-align:right;
+}
+
+input {
+    display:inline-flex;
+    justify-content: right;
+}
+
+/* This adds left margin to the about-me text to look better visually*/
+
+#aboutme {
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+/* This sets up the Work font and the background for this section */
+
+h4 {
+    font-size:25px;
+    color:tomato;
+    line-height:50px;
+    background-color: slategrey;
+}
+
+
+.img:hover {
+    border-style:solid;
+    border:10px;
+    border-color:cadetblue;
+}
+
+h6 {
+    font-size:25px;
+    color:tomato;
+    line-height:50px;
+    background-color:slateblue;
+    
+}
+
+#contact {
+    color:whitesmoke;
+    background-color: teal;
+    text-align: start;
+    line-height:70px;
+    font-size:25px;
+    bottom:100px;
+    word-spacing: 60px;
+}
+
+/*  */
+
+.Contact nav {
+    position:relative;
+    bottom:85px;
+}
+
+/* This sets up the Contact Info font settings, placement, and background */
+
+.Info li{
+    color:whitesmoke;
+    background-color: teal;
+    text-align:center;
+    line-height:70px;
+    font-size:25px;
+    margin:0 0 0 30;
+}
+
+/* This line is for responsive screens */
+/* The image will wrap until it reaches its max width */
+
+@media screen and (max-width:992px) {
+    .img {
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
