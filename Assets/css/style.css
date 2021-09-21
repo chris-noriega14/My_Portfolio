@@ -34,12 +34,14 @@ li {
 /* This sets up the background image size below the header */
 .backgroundimage {
     width: 100%;
+    margin-left: 30%
 }
 
 
 .links a {
     padding:10px;
     background color: #52ab98;
+    margin:20px;
     border-radius:10px;
     border:gray;
 }
@@ -114,7 +116,7 @@ h6 {
 
 #contact {
     color:whitesmoke;
-    background-color: teal;
+    background-color:cadetblue;
     text-align: start;
     line-height:70px;
     font-size:25px;
@@ -133,11 +135,24 @@ h6 {
 
 .Info li{
     color:whitesmoke;
-    background-color: teal;
+    background-color:cadetblue;
     text-align:center;
     line-height:70px;
     font-size:25px;
-    margin:0 0 0 30;
+    margin:20px;
+    line-height:70px;
+    position:relative;
+    bottom:22px;
+    padding:10px;
+    background color: #52ab98;
+    border-radius:10px;
+    border:gray;
+}
+
+.Info li:hover{
+    justify-content: space-between;
+    color:gray;
+    background-color:whitesmoke;
 }
 
 /* This line is for responsive screens */
