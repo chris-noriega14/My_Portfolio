@@ -1,6 +1,6 @@
-# 02 Advanced CSS: Portfolio
+# Homework #2 - My_Portfolio #
 
-Add a screenshot of the deployed application:
+Screenshot of the deployed application:(https://github.com/chris-noriega14/My_Portfolio/blob/main/screencapture-my-portfolio.png?raw=true)
 
 URL Link to deployed portfolio: https://chris-noriega14.github.io/My_Portfolio/
 
