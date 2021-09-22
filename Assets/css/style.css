@@ -32,9 +32,10 @@ li {
 }
 
 /* This sets up the background image size below the header */
-.backgroundimage {
+.backimage {
     width: 100%;
-    margin-left: 30%
+    position:relative;
+    bottom:110px;
 }
 
 /* This sets up how the three hyperlinks in the header will look like */
@@ -64,9 +65,13 @@ a:hover {
 
 /* This sets up the wording for the background image */
 h2 {
-    text-align:right;
-    line-height: 100%;
-    background-color:skyblue;
+    text-align:start;
+    font-size: 25px;
+    color: cadetblue;
+    line-height: 70px;
+    position:relative;
+    bottom: 110px;
+    background-color:whitesmoke;
 }
 
 /* This sets up the wording of "About" */
@@ -91,6 +96,14 @@ input {
     justify-content: right;
 }
 
+.aboutbox {
+    border-style:solid;
+    border-color:cornflowerblue;
+    border-width:thick;
+    position: relative;
+    bottom: 114px;
+    margin-bottom: -114px;
+}
 /* This adds left margin to the about-me text to look better visually*/
 
 #aboutme {
