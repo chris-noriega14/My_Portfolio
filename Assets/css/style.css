@@ -41,7 +41,7 @@ li {
 /* This sets up how the three hyperlinks in the header will look like */
 .links a {
     padding:10px;
-    background color: #52ab98;
+    background-color:cadetblue;
     margin:20px;
     border-radius:10px;
     border:gray;
@@ -153,7 +153,7 @@ section when the cursor is hovered over it */
     position:relative;
     bottom:22px;
     padding:10px;
-    background color: #52ab98;
+    background-color: cadetblue;
     border-radius:10px;
     border:gray;
 }
