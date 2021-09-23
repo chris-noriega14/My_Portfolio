@@ -122,7 +122,7 @@ h4 {
 
 /* This sets up the functionality of the images in the work
 section when the cursor is hovered over it */
-.img:hover {
+#projects:hover {
     border-style:solid;
     border:10px;
     border-color:cadetblue;
