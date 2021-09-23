@@ -16,7 +16,7 @@ The third section displays a background image as a way to enhance the webpage's 
 
 The About section describes my current life, and what I enjoy doing during on my free time.
 
-The Projects section has two projects that we have worked on so far: The Code_Refactor homework and the Pre_work files assignments. The images are linked to the GitHub repositories associated with those projects.
+The Projects section has the two assignments that we have worked on so far: The Code_Refactor homework and the Pre_work files assignments. The images are linked to the GitHub repositories associated with those projects.
 
 The Contact section has three methods of contact: Phone Number, LinkedIn, and GitHub. The LinkedIn and GitHub sections are linked to my personal pages at each of those websites. 
 

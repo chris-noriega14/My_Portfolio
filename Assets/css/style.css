@@ -41,18 +41,12 @@ li {
 /* This sets up how the three hyperlinks in the header will look like */
 .links a {
     padding:10px;
+    position: relative;
+    bottom: 5px;
     background-color:cadetblue;
     margin:20px;
     border-radius:10px;
     border:gray;
-}
-
-/* This sets up how the images in the projects section will work */
-input {
- border:10px;
- border-color:teal;
- display:flex;
- flex-wrap: wrap;
 }
 
 /* This sets up how the hyperlinks will act when you hover the cursor over it */
@@ -93,7 +87,6 @@ h3 ul li {
 /* This sets up the images in the project section */
 input {
     display:inline-flex;
-    justify-content: right;
 }
 
 .aboutbox {
@@ -113,7 +106,7 @@ input {
 
 /* This sets up the Work font and the background for this section */
 
-h4 {
+#projects {
     font-size:25px;
     color:whitesmoke;
     line-height:70px;
@@ -123,6 +116,10 @@ h4 {
 /* This sets up the functionality of the images in the work
 section when the cursor is hovered over it */
 #projects:hover {
+
+}
+
+#project1, #project2 {
     border-style:solid;
     border:10px;
     border-color:cadetblue;
@@ -151,7 +148,7 @@ section when the cursor is hovered over it */
     margin:20px;
     line-height:70px;
     position:relative;
-    bottom:22px;
+    bottom:25px;
     padding:10px;
     background-color: cadetblue;
     border-radius:10px;
